@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_recording" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_recording" />
+
+
+
+    <Button
+        android:id="@+id/showBitmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="showbitmap"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/ic_launcher"/>
+</LinearLayout>
+
+
+
+
+
